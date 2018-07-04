@@ -7,4 +7,4 @@
 - sudo bash install.sh (Do not run the script as root)
 - sudo bash screen-scrypt.sh
 - sudo bash screen-stratum.sh
--  /site/adminpanel
+- /site/adminpanel
