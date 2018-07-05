@@ -55,11 +55,11 @@ if [ -f autogen.sh ]; then
 		output " "
 		output "Starting ./configure"
 		output " "
-        sudo ./configure
+        sudo ./configure --with-incompatible-bdb
 		output " "
 		output "Starting make"
 		output " "
-        sudo make
+        sudo make -j4
 		output " "
         output "$coin_name finished and can be found in CoinBuilds/$coin/src/ Make sure you sudo strip Coind and coin-cli if it exists, copy to /usr/bin"
 		output " "
