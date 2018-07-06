@@ -87,7 +87,7 @@ fi
 output " "
 output "SRC Compilation Starting "
 output " "
-sudo make -f makefile.unix
+sudo make -j4 -f makefile.unix USE_UPNP=-
 output " "
 output "$coin finished and can be found in CoinBuilds/$coin/src/ Make sure you sudo strip Coind and coin-cli if it exists, copy to /usr/bin"
 output " "
